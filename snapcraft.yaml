@@ -16,3 +16,8 @@ parts:
 apps:
   test-snap-fran:
     command: python3 test_snap.py
+
+architectures:
+  - build-on: i386
+  - build-on: amd64
+  - build-on: arm64
