@@ -5,7 +5,7 @@ description: >
   Just a test python snap
 
 confinement: strict
-base: core18
+base: core20
 
 parts:
   test-snap-fran:
